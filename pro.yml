@@ -1,0 +1,9 @@
+  # monitor:
+  #   image: prom/prometheus
+  #   ports:
+  #     - 9090:9090
+  #   volumes:
+  #     - ./prometheusconfigs/prometheus.yml:/etc/prometheus/prometheus.yml
+  #   networks:
+  #     monitoring:
+  #       ipv4_address: 127.0.0.11
